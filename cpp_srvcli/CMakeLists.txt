@@ -15,6 +15,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddTwoInts.srv"
+  "msg/String.msg"
 )
 
 #install(FILES mapping_rules.yaml DESTINATION share/${PROJECT_NAME})
