@@ -1,6 +1,6 @@
 import sys
 
-from example_interfaces.srv import AddTwoInts
+from cpp_srvcli.srv import AddTwoInts
 import rclpy
 from rclpy.node import Node
 
